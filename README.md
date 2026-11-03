@@ -1,0 +1,1 @@
+# os-bank-connector-info
