@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow"><meta name="description" content="Öffentliche Informationsseiten für den privat genutzten OS Bank Connector (AIS)">
+<title>Datenschutz | OS Bank Connector</title><style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#0b1422;color:#e7eff6}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -5%,#16364f 0%,#0b1422 42%,#09111d 100%);min-height:100vh;line-height:1.65}
+.wrapper{max-width:860px;margin:0 auto;padding:34px 22px 80px}header{display:flex;justify-content:space-between;gap:20px;align-items:center;padding-bottom:24px;border-bottom:1px solid #2b4050;flex-wrap:wrap}
+.brand{font-size:1rem;letter-spacing:.05em;font-weight:700;color:#d9f1fa;text-decoration:none}.tag{font-size:.72rem;color:#9bd9d7;border:1px solid #366664;padding:4px 10px;border-radius:999px}
+nav{display:flex;gap:18px;flex-wrap:wrap}a{color:#79dddc;text-underline-offset:3px}nav a{color:#bed2de;text-decoration:none;font-size:.9rem}nav a:hover,a:hover{color:#b5ffff}
+h1{font-size:clamp(1.8rem,4vw,2.7rem);line-height:1.22;letter-spacing:-.04em;margin:30px 0 10px}h2{font-size:1.13rem;color:#e4f4f8;margin:32px 0 8px}p,li{color:#c0cedb}.lead{font-size:1.09rem;max-width:650px;color:#d2e5ec}
+.panel{background:#111f30;border:1px solid #29445b;border-radius:16px;padding:26px;margin-top:26px;box-shadow:0 16px 50px rgba(0,0,0,.12)}
+.links{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}.linkcard{display:block;padding:16px 21px;text-decoration:none;color:#dff8f6;border:1px solid #467b7e;background:#193b46;border-radius:10px;font-weight:650}.linkcard:hover{background:#20515a}
+small,.meta{color:#94aaba;font-size:.85rem}footer{border-top:1px solid #2b4050;margin-top:44px;padding-top:22px;font-size:.82rem;color:#91a8b9}ul{padding-left:22px}
+@media(max-width:560px){.wrapper{padding:20px 16px 54px}.panel{padding:19px}header{align-items:flex-start}nav{gap:12px}}
+</style></head>
+<body><div class="wrapper"><header><a class="brand" href="index.html">OS BANK CONNECTOR</a><span class="tag">PRIVATE · AIS · READ-ONLY</span><nav aria-label="Navigation"><a href="index.html">Startseite</a><a href="privacy.html">Datenschutz</a><a href="terms.html">Nutzung</a></nav></header>
+<main><h1>Datenschutzhinweise</h1><p class="lead">OS Bank Connector – ausschließlich private, nicht-kommerzielle Nutzung.</p>
+<p class="meta">Stand: 03.11.2026</p>
+<div class="panel"><h2>1. Geltungsbereich</h2>
+<p>Diese Hinweise beschreiben die Verarbeitung von Bankinformationen durch den privaten OS Bank Connector. Der Connector wird nur zur Verwaltung eigener Bankkonten im persönlichen Desktop-Haushaltsbuch „OS“ genutzt und nicht Dritten als Dienst angeboten. Diese Informationswebsite selbst ist keine Banking-Anwendung.</p>
+<h2>2. Welche Daten verarbeitet werden</h2>
+<p>Bei freigegebenen Kontoabrufen können insbesondere Kontokennungen (zum Beispiel IBAN), Kontostände, Buchungsdaten, Beträge, Währungen, Verwendungszwecke, Angaben zu Zahlungspartnern sowie technische Informationen zur Bankfreigabe und zur API-Sitzung verarbeitet werden. Die tatsächlich gelieferten Daten hängen von der jeweiligen Bank und Freigabe ab.</p>
+<h2>3. Zweck und Datenfluss</h2>
+<p>Die Abfrage dient ausschließlich der persönlichen Finanzübersicht, der Prüfung von Kontoständen und der Vorbereitung eines kontrollierten Imports in die lokale OS-Finanzverwaltung. Bankinformationen werden nach ausdrücklicher Autorisierung über die Bank und den Dienstleister <a href="https://enablebanking.com/">Enable Banking</a> an den lokalen Connector übermittelt. Enable Banking verarbeitet Informationen im Rahmen seiner eigenen Dienstleistung; siehe dessen <a href="https://auth.enablebanking.com/privacy">Datenschutzhinweise zum Bankzugang</a>.</p>
+<h2>4. Speicherung und Weitergabe</h2>
+<p>Der Connector verarbeitet und speichert abgerufene Daten in einer lokalen, gegen andere Windows-Benutzer geschützten Ablage auf dem eigenen Computer. Zugangsschlüssel werden mit dem Windows-Datenschutzmechanismus geschützt. Ein Import in die lokale OS-Finanzdatenbank erfolgt erst nach einer gesonderten manuellen Entscheidung. Lokale Sicherungskopien können im Rahmen der privaten Backup-Verwaltung bestehen bleiben. Die Aufbewahrung und Löschung dieser lokalen Daten werden durch die betreibende Person verwaltet; es wird keine pauschale automatische Löschfrist zugesichert.</p>
+<p>Der Connector überträgt Bankdaten nicht an diese GitHub-Pages-Website. Eine spätere, gesonderte Weiterverwendung von Finanzdaten durch andere OS-Funktionen ist nicht Gegenstand dieser Connector-Informationsseite.</p>
+<h2>5. Bankfreigabe und Widerruf</h2>
+<p>Der Zugang zu Bankkontoinformationen wird über den offiziellen Freigabeprozess des jeweiligen Geldinstituts autorisiert. Bestehende Freigaben können über die dafür vorgesehenen Bank- oder Connector-Funktionen beendet werden. Der Connector führt selbst keine Zahlungen aus.</p>
+<h2>6. Nutzung dieser Informationswebsite</h2>
+<p>Diese statische Website verwendet keine eigenen Tracking-Skripte, Webanalyse-Dienste oder Formulare und setzt selbst keine Cookies. Beim Besuch über GitHub Pages kann GitHub technische Zugriffsdaten als Hosting-Anbieter verarbeiten. Dazu gelten die <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Datenschutzhinweise von GitHub</a>.</p>
+<h2>7. Kontakt und Änderungen</h2>
+<p>Für Datenschutzfragen zur privaten Anwendung ist die bei Enable Banking hinterlegte Datenschutz-Kontaktadresse des Anwendungsinhabers maßgeblich. Bei einer wesentlichen Änderung der Nutzung, insbesondere einer Bereitstellung für Dritte, müssen diese Hinweise vorab überprüft und angepasst werden.</p></div></main>
+<footer>Privates, nicht-kommerzielles Informationsangebot. Keine Banking-Anmeldung und kein Zugriff auf Bankdaten über diese Website.</footer>
+</div></body></html>
